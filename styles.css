@@ -1,0 +1,268 @@
+html{
+    width: 375px;
+    margin: 0px 0px 0px 0px;
+}
+#top {
+    display: flex;
+    width: 375px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+    /* justify-content: space-around; */
+    /* margin-bottom: 52px; */
+
+}
+
+#body {
+    max-width: 375px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+width: 375px;
+
+}
+
+.ROSE {
+
+    margin: 24px 0px 24px 20px;
+
+
+}
+
+#wholeBurger {
+
+    margin: 19px 1px 10px 70px;
+}
+
+.topPartOfTheBurger {
+
+    width: 24px;
+    height: 0px;
+    top: 39.5px;
+    border: 1px solid #000000;
+    margin: 6px 0;
+}
+
+.middlePartOfTheBurger {
+
+    width: 24px;
+    height: 0px;
+    top: 34px;
+    border: 1px solid #000000;
+    margin: 6px 0;
+}
+
+.bottomPartOfTheBurger {
+
+    width: 24px;
+    height: 0px;
+    bottom: 20px;
+    margin: 6px 0;
+    border: 1px solid #000000;
+
+}
+
+#topPhoto {
+    /* margin-bottom: 32px; */
+    margin-top: 52px;
+}
+
+
+
+#aboutBlog {
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 34px;
+    width: 335px;
+    height:172px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 120%;
+    text-align: center;
+    margin: 32px 20px 0px 20px;
+    vertical-align: top;
+
+
+
+}
+
+#smallTextAboutBlog {
+    font-family: 'SF Mono', sans-serif;
+    font-size: 16px;
+    width: 335px;
+    height: 81px;
+    line-height: 25px;
+    line-height: 150%;
+    text-align: center;
+    vertical-align: top;
+    margin: 24px 20px 0px 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+}
+
+#lineOfFirstPage {
+    width: 375px;
+    height: 0px;
+    border: 2px solid #000000;
+    margin: 52px 0 0 0;
+}
+
+#articles {
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    width: 164px;
+    white-space: nowrap;
+    height: 36px;
+    line-height: 100%;
+    margin: 56px 100px 0px 100px;
+    vertical-align: top;
+}
+
+.secondPagePhotosFIRST {
+    margin: 29px 20px 0px 20px;
+}
+
+.secondPagePhotos {
+    margin: 42px 20px 0px 20px;
+}
+
+#firstPage{
+    width:375px;
+}
+.textAfterImages {
+    margin: 20px 56px 0px 56px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: Medium;
+    fill: solid;
+    font-size: 22px;
+    line-height: 26px;
+    line-height: 120%;
+    text-align: center;
+    vertical-align: top;
+    font-weight: 450;
+    
+}
+#OFFF{
+    width:262px;
+    height:78px;    
+}
+#helloWorld{
+    width:262px;
+    height:52px;  
+}
+#regarding{
+    width:262px;
+    height:78px;   
+}
+#updatingList{
+    width:282px;
+    height:104px;   
+}
+#fewWordd{
+    width:262px;
+    height:78px;   
+}
+#modern{
+    width:270px;
+    height:104px; 
+}
+#blackSquare {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 456px;
+    margin-top: 87px;
+    width: 375px;
+    overflow: hidden;
+    position: relative;
+}
+
+#squareFirstText {
+    font-family: 'SF Pro Display', sans-serif;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 22px 0px 0px 0px;
+    gap: 10px;
+    font-size: 21px;
+    white-space: nowrap;
+    line-height: 28px;
+    transform: translateX(-30.3%);
+
+
+
+}
+
+
+#US {
+    font-weight: bold;
+}
+
+#DIGITAL {
+    font-weight: bold;
+}
+
+#creativity {
+    font-weight: bold;
+}
+
+#suspense {
+    font-weight: bold;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+#informationText {
+    text-align: center;
+}
+
+#bottomRose {
+    margin: 153px 65px 0px 65px;
+    margin-top: 153px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+#lorem {
+    font-family: 'New York Small';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 140%;
+    fill: #FFFFFF;
+    margin: 26px 44px 0px 44px;
+
+}
+
+.oneLink {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170%;
+    text-decoration-line: underline;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    width: 181px;
+    margin: 32px 97px 0px 97px;
+}
+
+#authors {
+    width: 170px;
+    height: 34px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    margin: 64px 100px 32px 100px;
+}
