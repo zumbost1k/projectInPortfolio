@@ -1,46 +1,67 @@
+* {
+    box-sizing: border-box;
+}
 .top {
     display: flex;
-
     height: 65px;
     background: #FFFFFF;
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
-    /* justify-content: space-around; */
-    /* margin-bottom: 52px; */
 
+
+}
+.img_rose{
+    visibility: visible;
+    position: sticky;
+}
+.top_photo {
+    margin-top: 52px;
+    /* width: 375px;
+    height: 235px; */
+}
+
+.desktop_menu {
+    position: absolute;
+    visibility: hidden;
+}
+
+.desktop_rose {
+    position: absolute;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
 }
 
 .body {
-
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
-
-
 }
 
-.ROSE {
+
+
+.rose {
 
     margin: 24px 0px 24px 20px;
 
 
 }
 
-.wholeBurger {
+.whole_burger {
 
     margin: 19px 1px 10px 70px;
 }
 
-.topPartOfTheBurger {
+.top_part_of__the_burger {
 
     width: 24px;
     height: 0px;
     top: 39.5px;
     border: 1px solid #000000;
     margin: 6px 0;
-}
+}about_blogsecond_page
 
-.middlePartOfTheBurger {
+.middle_part_of__the_burger {
 
     width: 24px;
     height: 0px;
@@ -49,7 +70,7 @@
     margin: 6px 0;
 }
 
-.bottomPartOfTheBurger {
+.bottom_part_of__the_burger {
 
     width: 24px;
     height: 0px;
@@ -59,14 +80,10 @@
 
 }
 
-.topPhoto {
-    /* margin-bottom: 32px; */
-    margin-top: 52px;
-}
 
 
 
-.aboutBlog {
+.about_blog {
     font-family: 'New York Extra Large', sans-serif;
     font-size: 34px;
 
@@ -82,12 +99,12 @@
 
 }
 
-.smallTextAboutBlog {
+.small_text_about_blog {
     font-family: 'SF Mono', sans-serif;
     font-size: 16px;
 
     height: 81px;
-    line-height: 25px;
+    
     line-height: 150%;
     text-align: center;
     vertical-align: top;
@@ -97,7 +114,7 @@
 
 }
 
-.lineOfFirstPage {
+.line_of_first_page {
 
     height: 0px;
     border: 2px solid #000000;
@@ -116,114 +133,54 @@
     vertical-align: top;
 }
 
-.secondPagePhotosFIRST {
-    margin: 29px 20px 0px 20px;
+.second_page_photos_first {
+    margin: 29px 36px 0px 35px;
+
 }
 
-.secondPagePhotos {
-    margin: 42px 20px 0px 20px;
+.second_page_photos {
+    margin: 42px 36px 0px 35px;
+   
 }
 
 
-.textAfterImages {
-    margin: 20px 56px 0px 56px;
+.text_after_images {
     font-family: 'SF Pro Display', sans-serif;
-    font-style: Medium;
-    fill: solid;
+    font-style: normal;
+    
     font-size: 22px;
-    line-height: 26px;
+   
     line-height: 120%;
     text-align: center;
     vertical-align: top;
     font-weight: 450;
-
-}
-
-.OFFF {
     margin: 20px 56px 0px 56px;
+}
+.text_after_images_margins{
     font-family: 'SF Pro Display', sans-serif;
-    font-style: Medium;
-    fill: solid;
+    font-style: normal;
+   
     font-size: 22px;
     line-height: 26px;
-    line-height: 120%;
     text-align: center;
     vertical-align: top;
     font-weight: 450;
+    height: 104px;
+    margin: 20px 46px 0px 46px;  
+}
+.standart_height78 {
     height: 78px;
 }
 
-.helloWorld {
-    margin: 20px 56px 0px 56px;
-    font-family: 'SF Pro Display', sans-serif;
-    font-style: Medium;
-    fill: solid;
-    font-size: 22px;
-    line-height: 26px;
-    line-height: 120%;
-    text-align: center;
-    vertical-align: top;
-    font-weight: 450;
+.hello_world {
     height: 52px;
 }
-
-.regarding {
-    margin: 20px 56px 0px 56px;
-    font-family: 'SF Pro Display', sans-serif;
-    font-style: Medium;
-    fill: solid;
-    font-size: 22px;
-    line-height: 26px;
-    line-height: 120%;
-    text-align: center;
-    vertical-align: top;
-    font-weight: 450;
-    height: 78px;
-}
-
-.updatingList {
-    margin: 20px 56px 0px 56px;
-    font-family: 'SF Pro Display', sans-serif;
-    font-style: Medium;
-    fill: solid;
-    font-size: 22px;
-    line-height: 26px;
-    line-height: 120%;
-    text-align: center;
-    vertical-align: top;
-    font-weight: 450;
-    height: 104px;
-}
-
-.fewWordd {
-    margin: 20px 56px 0px 56px;
-    font-family: 'SF Pro Display', sans-serif;
-    font-style: Medium;
-    fill: solid;
-    font-size: 22px;
-    line-height: 26px;
-    line-height: 120%;
-    text-align: center;
-    vertical-align: top;
-    font-weight: 450;
-    height: 78px;
-}
-
 .modern {
-    margin: 20px 56px 0px 56px;
-    font-family: 'SF Pro Display', sans-serif;
-    font-style: Medium;
-    fill: solid;
-    font-size: 22px;
-    line-height: 26px;
-    line-height: 120%;
-    text-align: center;
-    vertical-align: top;
-    font-weight: 450;
+
     height: 104px;
 }
 
-.blackSquare {
+.black_square {
     background-color: #000000;
     color: #FFFFFF;
     height: 456px;
@@ -233,53 +190,38 @@
     position: relative;
 }
 
-.squareFirstText {
+.square_first_text {
     font-family: 'SF Pro Display', sans-serif;
     width: 1024px;
     display: flex;
     justify-content: space-between;
     position: absolute;
     margin: 22px 0px 0px 0px;
-    gap: 10px;
+    gap: 13px;
     font-size: 21px;
     white-space: nowrap;
     line-height: 28px;
-    transform: translateX(-29%);
+    transform: translateX(-30%);
 
 
 
 }
 
-
-.US {
-    font-weight: bold;
+.bold_text_center{
+    font-weight: bold; 
+    text-align: center;
 }
 
-.DIGITAL {
-    font-weight: bold;
-}
-
-.creativity {
-    font-weight: bold;
-}
-
-.suspense {
-    font-weight: bold;
-}
-
-.textCenter {
+.text_сenter {
     text-align: center;
 }
 
 
-.informationText {
-    text-align: center;
-}
 
-.bottomRose {
+
+.bottom_rose {
     margin: 153px 65px 0px 65px;
     margin-top: 153px;
-
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
@@ -289,19 +231,11 @@
     font-style: normal;
     font-size: 13px;
     line-height: 140%;
-    fill: #FFFFFF;
     margin: 26px 44px 0px 44px;
 
 }
 
-.oneLink {
-    font-family: 'SF Pro Display', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 170%;
-    text-decoration-line: underline;
-}
+
 
 .links {
     display: flex;
@@ -309,7 +243,14 @@
     width: 181px;
     margin: 32px 97px 0px 97px;
 }
-
+.one_link {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170%;
+    text-decoration-line: underline;
+}
 .authors {
     width: 170px;
     height: 34px;
@@ -321,3 +262,4 @@
     text-align: center;
     margin: 64px 100px 32px 100px;
 }
+
