@@ -16,9 +16,13 @@
 <body class="body">
     <div>
         <div class="top">
-            <h1 class="desctope_rose_block"><img class="desktop_rose" width="395.83px" height="37.53px"
-                    src="photos\desktop_rose.png" alt=""></h1>
-            <h1 class="rose"><img class="img_rose"  src="photos\rose.png" alt=""></h1>
+            <h1 class="rose">
+                <picture>
+                    <source media="(max-width:854px)" srcset="photos\mobile_rose.png" />
+                    <source media="(min-width:854px)" srcset="photos\desktop_rose.png" />
+                    <img class="img_rose" src="photos\mobile_rose.png" alt="NORDIC ROSE">
+                </picture>
+            </h1>
             <div class="desktop_menu">
                 <div class="first_part">BLOG</div>
                 <div class="second_part">ABOUT</div>
@@ -33,8 +37,12 @@
         </div>
 
         <div>
+            <picture>
+                <source media="(max-width:854px)" srcset="photos\top_photo_mobile.jpg" />
+                <source media="(min-width:854px)" srcset="photos\desktop.jpg" />
+                <img class="top_photo" src="photos\top_photo_mobile.jpg">
+            </picture>
 
-            <img class="top_photo" width="375px" height="235px"   src="photos\imgonline-com-ua-Resize-urNhT9kARoZ94SZ.jpg">
         </div>
         <div>
             <div class="about_blog">A few words about this blog platform, Ghost, and how this site was made</div>
@@ -44,43 +52,48 @@
     </div>
     <div class="second_page">
         <div class="articles">All articles</div>
-        <div class="columns">
-            <div>
-                <img class="second_page_photos_first" width="304px" height="178px" src="photos\imgonline-com-ua-Resize-bAyRCik3GxZyxPP7.jpg" alt="Granny gives everyone the finger">
-                <div class="standart_height78">
-                    <div class="text_after_images">Granny gives everyone the finger, and other tips from OFFF
+        <div class="flex_columns">
+            <div class="attribute">
+                <img class="second_page_photos_first" width="304px" height="176px" src="photos\1.jpg"
+                    alt="Granny gives everyone the finger">
+                <div>
+                    <div class="text_after_images_78">Granny gives everyone the finger, and other tips from OFFF
                         Barcelona</div>
                 </div>
             </div>
-            <div>
-                <img class="second_page_photos" width="304px" height="178px" src="photos\imgonline-com-ua-Resize-XOzt5UX5xp2iXq.jpg" alt="Hello world">
+            <div class="attribute">
+                <img class="second_page_photos" width="304px" height="176px" src="photos\2.jpg" alt="Hello world">
                 <div class="hello_world">
                     <div class="text_after_images">Hello world, or, in other words, why this blog exists
                     </div>
                 </div>
             </div>
-            <div>
-                <img class="second_page_photos" width="304px" height="178px" src="photos\imgonline-com-ua-Resize-wwIuzf7bbgI.jpg" alt="regarding how wework">
-                <div class="standart_height78">
+            <div class="attribute">
+                <img class="second_page_photos" width="304px" height="176px" src="photos\3.jpg"
+                    alt="regarding how wework">
+                <div >
                     <div class="text_after_images">Here are some things you should know regarding how wework </div>
                 </div>
             </div>
-            <div>
-                <img class="second_page_photos" width="304px" height="178px" src="photos\imgonline-com-ua-Resize-T3EhyoGpwJ.jpg" alt="remote work">
-                <div >
-                    <div class="text_after_images_margins">Updating list of 50+ sources on distributed teams, remote work, and
+            <div class="attribute">
+                <img class="second_page_photos" width="304px" height="176px" src="photos\4.jpg" alt="remote work">
+                <div>
+                    <div class="text_after_images_margins">Updating list of 50+ sources on distributed teams, remote
+                        work, and
                         how to make it all work better</div>
                 </div>
             </div>
-            <div>
-                <img class="second_page_photos" width="304px" height="178px" src="photos\imgonline-com-ua-Resize-aZU0MMuMOA5pq.jpg" alt="A few words about this blog platform">
-                <div class="standart_height78">
-                    <div class="text_after_images">A few words about this blog platform, Ghost, and how this site was
+            <div class="attribute">
+                <img class="second_page_photos" width="304px" height="176px" src="photos\5.jpg"
+                    alt="A few words about this blog platform">
+                <div>
+                    <div class="text_after_images_78">A few words about this blog platform, Ghost, and how this site was
                         made</div>
                 </div>
             </div>
-            <div>
-                <img class="second_page_photos" width="304px" height="178px" src="photos\imgonline-com-ua-Resize-X8Lnt3rhtf0Q.jpg" alt="modern remote working">
+            <div class="attribute">
+                <img class="second_page_photos" width="304px" height="176px" src="photos\6.jpg"
+                    alt="modern remote working">
                 <div class="modern">
                     <div class="text_after_images">How modern remote working tools get along with Old School Cowboy's
                         methods
@@ -93,25 +106,26 @@
         <div class="black_square">
             <div class="square_first_text">
 
-                <div  class="bold_text_center" >DIGITAL PRODUCT DESIGN</div>
+                <div class="bold_text_center">DIGITAL PRODUCT DESIGN</div>
                 <div class="text_сenter" class="work">REMOTE WORK</div>
-                <div  class="bold_text_center" >UX DESIGN</div>
+                <div class="bold_text_center">UX DESIGN</div>
                 <div class="text_сenter" class="teams">DISTRIBUTED TEAMS</div>
-                <div  class="bold_text_center" >CREATIVITY</div>
+                <div class="bold_text_center">CREATIVITY</div>
                 <div class="text_сenter" class="strategy">STRATEGY</div>
-                <div  class="bold_text_center" >SUSPENSE</div>
+                <div class="bold_text_center">SUSPENSE</div>
                 <div class="text_сenter" class="growth">GROWTH</div>
             </div>
 
             <div class="text_сenter">
-                <div class="bottom_rose"><img width="245px" height="35px" src="photos\NORDIC ROSE.png" alt="">
+                <div class="bottom_rose"><img width="245px" height="35px" src="photos\NORDIC ROSE.png"
+                        alt="NORDIC ROSE">
                 </div>
 
                 <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat
                     egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula.</div>
                 <div class="links">
                     <div class="one_link">Twitter</div>
-                    <div  class="one_link">Linkedln</div>
+                    <div class="one_link">Linkedln</div>
                     <div class="one_link">RSS</div>
                 </div>
                 <div class="authors">© 2012–2020 Nordic Rose Co. All rights reserved</div>

@@ -1,68 +1,44 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 .top {
     display: flex;
     height: 65px;
     background: #FFFFFF;
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
-
-
 }
-.img_rose{
-    visibility: visible;
-    position: sticky;
-}
+
 .top_photo {
     margin-top: 52px;
-    /* width: 375px;
-    height: 235px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .desktop_menu {
-    position: absolute;
-    visibility: hidden;
+    display: none;
 }
-
-.desktop_rose {
-    position: absolute;
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
-}
-
-.body {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
 
 .rose {
-
     margin: 24px 0px 24px 20px;
-
-
 }
 
 .whole_burger {
-
     margin: 19px 1px 10px 70px;
 }
 
 .top_part_of__the_burger {
-
     width: 24px;
     height: 0px;
     top: 39.5px;
     border: 1px solid #000000;
     margin: 6px 0;
-}about_blogsecond_page
+}
 
 .middle_part_of__the_burger {
-
     width: 24px;
     height: 0px;
     top: 34px;
@@ -71,17 +47,12 @@
 }
 
 .bottom_part_of__the_burger {
-
     width: 24px;
     height: 0px;
     bottom: 20px;
     margin: 6px 0;
     border: 1px solid #000000;
-
 }
-
-
-
 
 .about_blog {
     font-family: 'New York Extra Large', sans-serif;
@@ -94,28 +65,20 @@
     text-align: center;
     margin: 32px 20px 0px 20px;
     vertical-align: top;
-
-
-
 }
 
 .small_text_about_blog {
     font-family: 'SF Mono', sans-serif;
     font-size: 16px;
-
     height: 81px;
-    
     line-height: 150%;
     text-align: center;
     vertical-align: top;
     margin: 24px 20px 0px 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-
 }
 
 .line_of_first_page {
-
     height: 0px;
     border: 2px solid #000000;
     margin: 52px 0 0 0;
@@ -125,49 +88,65 @@
     font-family: 'New York Extra Large', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    width: 164px;
+    text-align: center;
     white-space: nowrap;
     height: 36px;
     line-height: 100%;
-    margin: 56px 100px 0px 100px;
+    margin-top: 56px;
     vertical-align: top;
 }
 
 .second_page_photos_first {
-    margin: 29px 36px 0px 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
 
 }
 
 .second_page_photos {
-    margin: 42px 36px 0px 35px;
-   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
 }
 
 
 .text_after_images {
     font-family: 'SF Pro Display', sans-serif;
     font-style: normal;
-    
     font-size: 22px;
-   
     line-height: 120%;
     text-align: center;
     vertical-align: top;
     font-weight: 450;
     margin: 20px 56px 0px 56px;
 }
-.text_after_images_margins{
+
+.text_after_images_78 {
     font-family: 'SF Pro Display', sans-serif;
     font-style: normal;
-   
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    vertical-align: top;
+    font-weight: 450;
+    margin: 20px 56px 0px 56px;
+    height: 78px;
+}
+
+.text_after_images_margins {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
     vertical-align: top;
     font-weight: 450;
     height: 104px;
-    margin: 20px 46px 0px 46px;  
+    margin: 20px 46px 0px 46px;
 }
+
 .standart_height78 {
     height: 78px;
 }
@@ -175,6 +154,7 @@
 .hello_world {
     height: 52px;
 }
+
 .modern {
 
     height: 104px;
@@ -185,7 +165,6 @@
     color: #FFFFFF;
     height: 456px;
     margin-top: 87px;
-
     overflow: hidden;
     position: relative;
 }
@@ -203,12 +182,10 @@
     line-height: 28px;
     transform: translateX(-30%);
 
-
-
 }
 
-.bold_text_center{
-    font-weight: bold; 
+.bold_text_center {
+    font-weight: bold;
     text-align: center;
 }
 
@@ -235,14 +212,13 @@
 
 }
 
-
-
 .links {
     display: flex;
     justify-content: space-between;
     width: 181px;
     margin: 32px 97px 0px 97px;
 }
+
 .one_link {
     font-family: 'SF Pro Display', sans-serif;
     font-style: normal;
@@ -251,6 +227,7 @@
     line-height: 170%;
     text-decoration-line: underline;
 }
+
 .authors {
     width: 170px;
     height: 34px;
@@ -263,3 +240,131 @@
     margin: 64px 100px 32px 100px;
 }
 
+@media (min-width:640px) {
+    .flex_columns {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 39px;
+        align-content: center;
+        height: 1014px;
+        gap: 28px;
+
+    }
+
+    .square_first_text {
+        transform: translateX(0%);
+    }
+
+    .line_of_first_page {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 34px;
+    }
+
+    .attribute {
+        flex: 1;
+        width: 304px;
+        height: 338px;
+
+    }
+
+    .second_page_photos_first,
+    .second_page_photos {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .text_after_images,
+    .text_after_images_78 {
+        margin-left: 21px;
+        margin-right: 21px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .top {
+        height: 134px;
+        display: flex;
+    }
+
+    .whole_burger {
+        display: none;
+    }
+
+
+    .rose {
+        margin: 52.54px 0px 42.93px 63.58px;
+    }
+
+    .desktop_menu {
+        display: flex;
+    }
+
+    .first_part {
+        font-family: 'New York Small';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: 0.12em;
+        margin: 52.54px 31px 40px 476.59px;
+    }
+
+    .second_part {
+        font-family: 'New York Small';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: 0.12em;
+        margin: 52.54px 34px 40px 0px;
+    }
+
+    .third_part {
+        font-family: 'New York Small';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: 0.12em;
+        margin: 52.54px 30px 40px 0px;
+    }
+
+    .fouth_part {
+        font-family: 'New York Small';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: 0.12em;
+        margin: 52.54px 55px 40px 0px;
+    }
+
+    .top_photo {
+        width: 854px;
+        height: 533px;
+        margin: 76px 293px 0px 293px;
+    }
+
+    .aboutBlog {
+        font-size: 54px;
+        height: 162px;
+        margin: 44px 289px 0px 293px;
+    }
+
+    .smallTextAboutBlog {
+        font-size: 20px;
+        line-height: 170%;
+        margin: 32px 424px 0px 424px;
+    }
+
+
+
+    .articles {
+        font-size: 44px;
+        margin-top: 64px;
+    }
+
+
+}
