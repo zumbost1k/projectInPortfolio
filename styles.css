@@ -115,9 +115,6 @@ select {
     max-width: 375px;
 }
 
-
-
-
 .small_text_about_blog {
     padding: 24px 20px 0px 20px;
     font-family: 'SF Mono';
@@ -204,7 +201,6 @@ select {
     font-family: 'SF Pro Display', sans-serif;
     font-size: 20px;
     line-height: 28px;
-
 }
 
 .bottom_rose {
@@ -230,7 +226,7 @@ select {
     gap: 28px;
 }
 
-.links_div {
+.links_padding {
     padding-top: 32px;
 }
 
