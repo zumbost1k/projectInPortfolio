@@ -1,0 +1,547 @@
+Указываем box sizing *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+input {
+    margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article>*+* {
+    margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.desktop_menu {
+    display: none;
+}
+
+.top_photo {
+    padding-top: 36px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.top_padding_nordic {
+    padding: 24px 0px 21px 20px;
+}
+
+.top_padding_burger {
+    padding: 24px 24px;
+
+}
+
+.top_section {
+    text-align: center;
+    padding-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.about_blog {
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 0px 20px 0px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 375px;
+}
+
+
+
+
+.small_text_about_blog {
+    padding: 24px 20px 0px 20px;
+    font-family: 'SF Mono';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 375px;
+}
+
+.second_section {
+    display: block;
+    margin-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+}
+
+.author_of_post_info {
+    display: flex;
+    padding-top: 24px;
+    border-top: 2px solid #000000;
+    flex-wrap: wrap;
+}
+
+.author_name {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.author_date {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+.text_about_author {
+    padding-left: 16px;
+}
+
+.table_with_photo {
+    padding-top: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.table_of_contact {
+    display: flex;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+.facebook {
+    padding: 17px 43px 17px 43px;
+}
+
+.twitter {
+    padding: 17px 43px 17px 43px;
+    border-right: 1px solid #EAEAEA;
+    border-left: 1px solid #EAEAEA;
+}
+
+.phone {
+    padding: 17px 43px 17px 43px;
+}
+
+.author_comment {
+    padding-top: 32px;
+
+}
+
+.text_of_section {
+    font-family: 'New York Medium';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.pipeline {
+    padding-top: 42px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.text_after_pipeline {
+    padding-top: 19px;
+
+}
+
+.rectangle {
+    padding-top: 42px;
+    position: absolute;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    left: 50%;
+    transform: translateX(-50.0%);
+    width: 375px;
+}
+
+.rectangle_caption {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    padding: 12px 20px 0px 20px;
+}
+
+.last_section_text {
+    padding-top: 382px;
+}
+
+.last_text_second {
+    padding-top: 35px;
+}
+
+.article_section_footer {
+    padding-top: 42px;
+    border-bottom: 1px dashed #000000;
+}
+ 
+.section_footer_text {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+}
+
+.table_footer {
+    padding-top: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 335px;
+}
+
+.tags {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.black_link {
+    color: #000000;
+}
+
+.comment_from_author {
+    padding-top: 28px;
+}
+
+.big_avatar {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.big_avatar_text_bold {
+    font-family: 'SF Pro Text';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.big_avatar_text {
+    font-family: 'New York Small';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.additional_articles {
+    margin-top: 91px;
+    border-top: 2px solid #000000;
+    text-align: center;
+    position: relative;
+}
+
+.read_next {
+    padding-top: 62px;
+    font-family: 'New York Extra Large';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.additional_articles:before {
+    content: url("photos/eyes.png");
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -30px;
+}
+
+.photo {
+    max-width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_after_images {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    padding: 20px 11px 0px 11px;
+}
+
+.second_page_photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+}
+
+.sign_up {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 82px;
+    border: 2px solid #000000;
+    border-top: 10px solid #000000;
+    text-align: center;
+    max-width: 640px;
+}
+
+.sign_up_caption {
+    padding: 42px 65px 0px 65px;
+    font-family: 'New York Extra Large';
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 100%;
+}
+
+.sign_up_text {
+    padding: 14px 37px 0px 37px;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.mail {
+    padding: 33px 26px 38px 26px;
+}
+
+.mail_text {
+    background-color: #000000;
+    color: white;
+    padding: 16px 17px 17px 17px;
+    white-space: nowrap;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.input_mail {
+    height: 48px;
+    border: 1px solid #000000;
+}
+
+::placeholder {
+    color: #000000;
+    padding-left: 12px;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer_black_square {
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.square_first_text {
+    position: absolute;
+    white-space: nowrap;
+    display: flex;
+    gap: 19px;
+    left: 50%;
+    transform: translateX(-40.5%);
+    padding-top: 22px;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+.scroll_text {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.bottom_rose {
+    padding-top: 153px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lorem {
+    padding: 26px 44px 0px 44px;
+    padding-top: 26px;
+    font-family: 'New York Small';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    max-width: 375px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.links_padding {
+    padding-top: 32px;
+}
+
+.link {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170%;
+    color: white;
+}
+
+.copy_text {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    padding: 64px 98px 32px 98px;
+    max-width: 374px;
+}
+
+@media (min-width:855px) {
+    .about_blog {
+        max-width: 854px;
+        font-size: 54px
+    }
+
+
+    .small_text_about_blog {
+        font-size: 20px;
+        max-width: 550px;
+    }
+
+
+}
+
+@media (min-width:1024px) {
+    .desktop_menu {
+        display: flex;
+        gap: 32px;
+        font-family: 'New York Small';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        padding: 59px 61px 0px 0px;
+    }
+
+    .first_part {
+        border-bottom: 2px solid #000000;
+        padding-bottom: 40px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .top_padding_burger {
+        display: none;
+    }
+
+    .second_part,
+    .third_part,
+    .fouth_part {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .top_padding_nordic {
+        padding: 52px 0px 0px 63px;
+    }
+}
