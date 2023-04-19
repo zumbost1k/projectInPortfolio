@@ -1,2 +1,0 @@
-indexhtml.txt
-styles.css

@@ -256,7 +256,7 @@ select {
 .last_text_second {
     padding-top: 35px;
 }
- 
+
 .article_section_footer {
     padding-top: 42px;
     border-bottom: 1px dashed #000000;
@@ -270,7 +270,7 @@ select {
     letter-spacing: 0.03em;
 }
 
-.table_div_footer {
+.table_footer {
     padding-top: 9px;
     display: block;
     margin-left: auto;
@@ -336,7 +336,7 @@ select {
     margin-top: -30px;
 }
 
-.div_with_photo {
+.photo {
     max-width: 304px;
     display: flex;
     flex-direction: column;
@@ -389,7 +389,6 @@ select {
 
 .mail {
     padding: 33px 26px 38px 26px;
-
 }
 
 .mail_text {
@@ -430,7 +429,6 @@ select {
     align-items: center;
     position: relative;
     overflow: hidden;
-
 }
 
 .square_first_text {
@@ -451,7 +449,6 @@ select {
     font-family: 'SF Pro Display', sans-serif;
     font-size: 20px;
     line-height: 28px;
-
 }
 
 .bottom_rose {
@@ -529,10 +526,19 @@ select {
     .first_part {
         border-bottom: 2px solid #000000;
         padding-bottom: 40px;
+        color: #000000;
+        text-decoration: none;
     }
 
     .top_padding_burger {
         display: none;
+    }
+
+    .second_part,
+    .third_part,
+    .fouth_part {
+        color: #000000;
+        text-decoration: none;
     }
 
     .top_padding_nordic {
