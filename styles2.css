@@ -173,7 +173,7 @@ select {
     padding-left: 16px;
 }
 
-.table_div {
+.table_with_photo {
     padding-top: 24px;
     display: block;
     margin-left: auto;
@@ -261,7 +261,7 @@ select {
     padding-top: 42px;
     border-bottom: 1px dashed #000000;
 }
-
+ 
 .section_footer_text {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 500;
