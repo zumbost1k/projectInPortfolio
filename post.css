@@ -1,4 +1,4 @@
- *,
+*,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -344,10 +344,15 @@ select {
     padding: 20px 11px 0px 11px;
 }
 
+.atribute {
+    margin-top: 42px;
+    max-width: 304px;
+}
+
 .second_page_photos {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 42px;
+
 }
 
 .sign_up {
@@ -488,5 +493,279 @@ select {
     display: flex;
 }
 
+@media (min-width:555px) {
+
+    .table_with_photo {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .author_of_post_info {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .abyss {
+        display: none;
+    }
+
+    .facebook,
+    .twitter {
+        padding: 17px 38px 17px 39px;
+        border-right: 0;
+    }
+}
+
+@media (min-width:855px) {
+    .author_of_post_info {
+        margin-top: 32px;
+    }
+
+    .share_on_photo {
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    .no_decoration {
+        text-decoration: none;
+        display: flex;
+        align-content: center;
+    }
+
+    .author_comment {
+        padding-top: 50px;
+    }
+
+    .text_after_pipeline {
+        padding-top: 24px;
+    }
+
+    .about_blog {
+        max-width: 854px;
+        font-size: 54px;
+        padding-top: 52px;
+    }
+
+    .last_section_text {
+        padding-top: 730px;
+    }
+
+    .rectangle {
+        padding-top: 52px;
+        width: 854px;
+    }
+
+    .rectangle_caption {
+        font-size: 16px;
+        max-width: 481px;
+    }
+
+    .small_text_about_blog {
+        font-size: 20px;
+        max-width: 550px;
+        padding-top: 32px;
+    }
+
+    .text_of_section {
+        font-size: 20px;
+    }
+
+    .pipeline {
+        font-size: 32px;
+    }
+
+    .top_photo {
+        padding-top: 52px;
+    }
+
+    .top_padding_burger {
+        padding: 35px 30px;
+    }
+
+    .list,
+    .text_after_list,
+    .end {
+        display: block;
+        padding-top: 52px;
+    }
+
+    .share,
+    .phone {
+        display: none;
+    }
+
+    .list_part {
+        padding-top: 20px;
+    }
+
+    .share_on {
+        display: block;
+        font-family: 'SF Pro Display';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        white-space: nowrap;
+        color: #000000;
+        margin-top: -4px;
+    }
+
+    .twitter2 {
+        border-right: 0;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+    .facebook2 {
+        padding-right: 71px;
+        padding-left: 71px;
+    }
+
+    .table_of_contact2 {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .table_footer {
+        margin: 0;
+    }
+
+    .section_footer_text {
+        font-size: 16px;
+        padding-bottom: 34px;
+    }
+
+    .comment_from_author {
+        padding-top: 32px;
+    }
+
+    .big_avatar_text_bold {
+        font-size: 18px;
+    }
+
+    .big_avatar {
+        padding-top: 4px;
+        padding-right: 24px;
+
+    }
+
+    .big_avatar_text {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+
+    .read_next {
+        font-size: 44px;
+        padding-top: 73px;
+    }
+
+    .additional_articles {
+        margin-top: 132px;
+    }
+
+    .sign_up_caption {
+        padding-top: 62px;
+        font-size: 36px;
+    }
+
+    .sign_up_text {
+        font-size: 20px;
+        padding-top: 18px;
+    }
+
+    .input_mail {
+        height: 54px;
+        width: 400px;
+    }
+
+    .mail {
+        padding: 36px 40px 60px 40px;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+        padding-left: 16px;
+    }
+
+    .mail_text {
+        height: 55px;
+        width: 120px;
+        font-size: 20px;
+    }
+
+    .square_first_text {
+        left: 50%;
+        transform: translateX(-50.0%);
+    }
+
+    .scroll_text {
+        font-size: 22px;
+        letter-spacing: 0.1em;
+    }
+
+    .lorem {
+        font-size: 16px;
+        max-width: 488px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1024px) {
+    .desktop_menu {
+        display: flex;
+        gap: 32px;
+        font-family: 'New York Small';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        padding: 59px 61px 0px 0px;
+    }
+
+    .author_name,
+    .time {
+        font-size: 16px;
+    }
+
+    .first_part {
+        border-bottom: 2px solid #000000;
+        padding-bottom: 40px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .top_padding_burger {
+        display: none;
+    }
+
+    .second_part,
+    .third_part,
+    .fouth_part {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .top_padding_nordic {
+        padding: 52px 0px 0px 63px;
+    }
+
+    .photo {
+        padding-top: 27px;
+        height: 730px;
+        flex-wrap: wrap;
+        max-width: 1024px;
+        gap: 28px;
+    }
+
+    .atribute {
+        max-width: 304px;
+        margin-top: 34px;
+    }
 
 
+
+}
