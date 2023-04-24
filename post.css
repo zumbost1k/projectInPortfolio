@@ -727,22 +727,18 @@ select {
         font-size: 16px;
     }
 
-    .first_part {
-        border-bottom: 2px solid #000000;
-        padding-bottom: 40px;
-        color: #000000;
-        text-decoration: none;
-    }
-
     .top_padding_burger {
         display: none;
     }
 
-    .second_part,
-    .third_part,
-    .fouth_part {
+    .menu_link {
+        padding-bottom: 40px;
         color: #000000;
-        text-decoration: none;
+        text-decoration: none
+    }
+
+    .menu_link.active {
+        border-bottom: 2px solid #000000;
     }
 
     .top_padding_nordic {
