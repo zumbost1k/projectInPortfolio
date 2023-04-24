@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="post.css">
     <link href="https://fonts.cdnfonts.com/css/new-york-extra-large" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
@@ -16,23 +16,23 @@
 
 <body>
     <header class="header">
- 
+
         <div class="top_padding_nordic">
             <h1>
                 <picture>
                     <source media="(max-width:854px)" srcset="photos\mobile_rose.png" />
-                    <source media="(min-width:854px)" width="395px" height="38px" srcset="photos\desktop_rose.png" />
-                    <img class="rose" width="217px" height="24px" src="photos\mobile_rose.png" alt="NORDIC ROSE">
+                    <source media="(min-width:854px)" width="395" height="38" srcset="photos\desktop_rose.png" />
+                    <img class="rose" width="217" height="24" src="photos\mobile_rose.png" alt="NORDIC ROSE">
                 </picture>
             </h1>
         </div>
         <div class="desktop_menu">
-            <p class="first_part">BLOG</p>
-            <p class="second_part">ABOUT</p>
-            <p class="third_part">LINKS</p>
-            <p class="fouth_part">PROJECTS</p>
+            <a href="" class="first_part">BLOG</a>
+            <a href="" class="second_part">ABOUT</a>
+            <a href="" class="third_part">LINKS</a>
+            <a href="" class="fouth_part">PROJECTS</a>
         </div>
-        <div class="top_padding_burger"><img width="25px" height="16px" src="photos\burger.png" alt="burger">
+        <div class="top_padding_burger"><img width="25" height="16" src="photos\burger.png" alt="burger">
         </div>
     </header>
     <artcile>
@@ -45,28 +45,32 @@
                 <h3 class="small_text_about_blog">Why Ghost (& Figma) instead of Medium, WordPress or other options?
                 </h3>
             </div>
-            <div class="top_photo">
+            <div class="top_photo padding_top52">
                 <picture>
                     <source media="(max-width:854px)" srcset="photos\top_photo_mobile.jpg" />
-                    <source media="(min-width:854px)" srcset="photos\desktop.jpg" />
-                    <img src="photos\top_photo_mobile.jpg">
+                    <source media="(max-width:854px)" srcset="photos\desktop.jpg" />
+                    <source media="(min-width:1440px)" srcset="photos\big_desktop.png" />
+                    <img src="photos\big_desktop.png">
                 </picture>
             </div>
         </section>
         <section class="second_section">
             <div class="author_of_post_info">
-                <div><img src="photos\avatar.png" width="56px" height="56px" alt="avatar"></div>
-                <div class="text_about_author">
-                    <p class="author_name">Mika Matikainen</p>
-                    <p class="author_data"> Apr 15, 2020 · 4 min read</p>
+                <div class="inf_about_author">
+                    <img src="photos\avatar.png" width="56" height="56" alt="avatar">
+                    <div class="text_about_author">
+                        <p class="author_name">Mika Matikainen</p>
+                        <p class="time"> Apr 15, 2020 · 4 min read</p>
+                    </div>
                 </div>
-                <div class="table_div">
-                    <table class="table_of_contact">
-                        <td class="facebook"><a href=""><img src="photos\facebook.png" width="20px" height="16px"
+
+                <div class="table_with_photo">
+                    <table class="table_of_contact ">
+                        <td class="facebook"><a href=""><img src="photos\facebook.png" width="20" height="16"
                                     alt="facebook"></a></td>
-                        <td class="twitter"><a href=""><img src="photos\twitter.png" width="20px" height="16px"
+                        <td class="twitter"><a href=""><img src="photos\twitter.png" width="20" height="16"
                                     alt="twitter"></a></td>
-                        <td class="phone"><a href=""><img src="photos\phone.png" width="20px" height="16px"
+                        <td class="phone abyss"><a href=""><img src="photos\phone.png" width="20" height="16"
                                     alt="phone"></a></td>
                     </table>
                 </div>
@@ -85,8 +89,8 @@
 
             <div class="rectangle">
                 <picture>
-                    <source media="(max-width:854px)" width="375px" height="250px" srcset="photos\rectangle.png" />
-                    <source media="(min-width:854px)" width="854px" height="570px"
+                    <source media="(max-width:854px)" width="375" height="250" srcset="photos\rectangle.png" />
+                    <source media="(min-width:854px)" width="854" height="570"
                         srcset="photos\rectangle_desktop.jpg" />
                     <img src="photos\rectangle_desktop.jpg" alt="rectangle">
                 </picture>
@@ -102,16 +106,34 @@
                     of content that offer delightfully
                     valuable
                     contrast to cursory wisdom in some of the established channels.</p>
+                <div class="text_of_section list">
+                    <p>A list looks like this:</p>
+                    <ul>
+                        <li>First item in the list</li>
+                        <li class="list_part">Second item in the list lorem ipsum dolor sit amet nunc felis dolor lorem
+                            ipsum sit amet</li>
+                        <li class="list_part">Third item in the list</li>
+                    </ul>
+
+                </div>
+                <p class="text_of_section text_after_list">Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos himenaeos. Aliquam quis posuere ligula. </p>
+                <p class="text_of_section end">Thanks for reading,<br>
+                    Mika</p>
             </div>
             <div class="article_section_footer">
-                <p class="section_footer_text">Share:</p>
+                <p class="section_footer_text share">Share:</p>
                 <div class="table_footer">
-                    <table class="table_of_contact">
-                        <td class="facebook"><a href=""><img src="photos\facebook.png" width="20px" height="16px"
-                                    alt="facebook"></a></td>
-                        <td class="twitter"><a href=""><img src="photos\twitter.png" width="20px" height="16px"
-                                    alt="twitter"></a></td>
-                        <td class="phone"><a href=""><img src="photos\phone.png" width="20px" height="16px"
+                    <table class="table_of_contact2">
+                        <td class="facebook2"><a href="" class="no_decoration"><img src="photos\facebook.png"
+                                    class="share_on_photo" width="20" height="16" alt="facebook">
+                                <p class="share_on">Share on Facebook </p>
+                            </a></td>
+                        <td class="twitter2"><a href="" class="no_decoration"><img class="share_on_photo"
+                                    src="photos\twitter.png" width="20" height="16" alt="twitter">
+                                <p class="share_on">Share on Twitter </p>
+                            </a></td>
+                        <td class="phone"><a href=""><img src="photos\phone.png" width="20" height="16"
                                     alt="phone"></a></td>
                     </table>
                 </div>
@@ -119,17 +141,18 @@
                         class="black_link">culture</a></p>
             </div>
             <div class="comment_from_author">
-                <img class="big_avatar" src="photos\big_avatar.png" width="70px" height="70px" alt="big avatar">
+                <img class="big_avatar" src="photos\big_avatar.png" width="70" height="70" alt="big avatar">
                 <p class="big_avatar_text"><span class="big_avatar_text_bold">Mika Matikainen</span> is a Design Founder
                     & Advisor, Berlin School of Creative Leadership Executive MBA participant, Zippie advisor, Wolt
                     co-founder, and Nordic Rose stakeholder. </p>
+
             </div>
         </section>
         <section class="additional_articles">
             <h2 class="read_next">What to read next</h2>
             <div class="photo">
                 <div class="atribute">
-                    <img class="second_page_photos" width="304px" height="176px" src="photos\1.jpg"
+                    <img class="second_page_photos" width="304" height="176" src="photos\1.jpg"
                         alt="Granny gives everyone the finger">
                     <div>
                         <p class="text_after_images">Granny gives everyone the finger, and other tips from OFFF
@@ -137,21 +160,21 @@
                     </div>
                 </div>
                 <div class="atribute">
-                    <img class="second_page_photos" width="304px" height="176px" src="photos\2.jpg" alt="Hello world">
+                    <img class="second_page_photos" width="304" height="176" src="photos\2.jpg" alt="Hello world">
                     <div>
                         <p class="text_after_images">Hello world, or, in other words, why this blog exists
                         </p>
                     </div>
                 </div>
                 <div class="atribute">
-                    <img class="second_page_photos" width="304px" height="176px" src="photos\3.jpg"
+                    <img class="second_page_photos" width="304" height="176" src="photos\3.jpg"
                         alt="regarding how wework">
                     <div>
                         <p class="text_after_images">Here are some things you should know regarding how we work </p>
                     </div>
                 </div>
                 <div class="atribute">
-                    <img class="second_page_photos" width="304px" height="176px" src="photos\4.jpg" alt="remote work">
+                    <img class="second_page_photos" width="304" height="176" src="photos\4.jpg" alt="remote work">
                     <div>
                         <p class="text_after_images">Updating list of 50+ sources on distributed teams, remote
                             work, and
@@ -159,7 +182,7 @@
                     </div>
                 </div>
                 <div class="atribute">
-                    <img class="second_page_photos" width="304px" height="176px" src="photos\5.jpg"
+                    <img class="second_page_photos" width="304" height="176" src="photos\5.jpg"
                         alt="A few words about this blog platform">
                     <div>
                         <p class="text_after_images">A few words about this blog platform, Ghost, and how this site was
@@ -167,7 +190,7 @@
                     </div>
                 </div>
                 <div class="atribute">
-                    <img class="second_page_photos" width="304px" height="176px" src="photos\6.jpg"
+                    <img class="second_page_photos" width="304" height="176" src="photos\6.jpg"
                         alt="modern remote working">
                     <div>
                         <p class="text_after_images">How modern remote working tools get along with Old School
@@ -181,10 +204,10 @@
             <h2 class="sign_up_caption">Sign up for the newsletter</h2>
             <p class="sign_up_text">If you want relevant updates occasionally, sign up for the private newsletter. Your
                 email is never shared.</p>
-            <div class="mail">
+            <form class="mail">
                 <input class="input_mail" placeholder="Enter your email..." type="text"><button class="mail_text">sign
                     up</button>
-            </div>
+            </form>
         </section>
         <footer class="footer_black_square">
             <div class="square_first_text">
@@ -202,9 +225,9 @@
 
             <div class="bottom_rose">
                 <picture>
-                    <source media="(max-width:854px)" width="245px" height="35px"
+                    <source media="(max-width:854px)" width="245" height="35"
                         srcset="photos\bottom_rose_mobile.png" />
-                    <source media="(min-width:854px)" width="300px" height="40px"
+                    <source media="(min-width:854px)" width="300" height="40"
                         srcset="photos\bottom_rose_mobile.png" />
                     <img src="photos\bottom_rose_mobile.png" alt="NORDIC ROSE">
                 </picture>
@@ -222,7 +245,7 @@
                 </ul>
             </div>
 
-            <p class="copy_text">© 2012–2020 Nordic Rose Co.  All rights reserved.</p>
+            <p class="copy_text">© 2012-2020 Nordic Rose Co. All rights reserved.</p>
 
         </footer>
 </body>
