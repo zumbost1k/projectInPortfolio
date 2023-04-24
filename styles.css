@@ -270,7 +270,7 @@ select {
     }
 
     .second_page_photos {
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
     }
 
     .text_after_images {
@@ -313,18 +313,14 @@ select {
         padding: 59px 61px 0px 0px;
     }
 
-    .first_part {
-        border-bottom: 2px solid #000000;
+    .menu_link {
         padding-bottom: 40px;
         color: #000000;
         text-decoration: none
     }
 
-    .second_part,
-    .third_part,
-    .fouth_part {
-        color: #000000;
-        text-decoration: none
+    .menu_link.active {
+        border-bottom: 2px solid #000000;
     }
 
     .top_padding_burger {
