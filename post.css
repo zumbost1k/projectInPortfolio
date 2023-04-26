@@ -130,13 +130,15 @@ select {
 
 .second_section {
     margin-top: 24px;
-    padding-left: 20px;
+   
+}
+.second_section_block{
+     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     max-width: 640px;
 }
-
 .author_of_post_info {
     display: flex;
     padding-top: 24px;
@@ -223,11 +225,8 @@ select {
 
 .rectangle {
     padding-top: 42px;
-    position: absolute;
     margin-right: auto;
     margin-left: auto;
-    left: 50%;
-    transform: translateX(-50.0%);
     width: 375px;
 }
 
@@ -243,7 +242,7 @@ select {
 }
 
 .last_section_text {
-    padding-top: 382px;
+    padding-top: 42px;
 }
 
 .last_text_second {
@@ -396,7 +395,7 @@ select {
 }
 
 .input_mail {
-    height: 52px;
+    height: 53px;
     border: 1px solid #000000;
     margin-bottom: 20px;
 }
@@ -544,7 +543,7 @@ select {
     }
 
     .last_section_text {
-        padding-top: 730px;
+        padding-top: 52px;
     }
 
     .rectangle {
@@ -671,7 +670,7 @@ select {
     }
 
     .input_mail {
-        height: 54px;
+        height: 55px;
         width: 400px;
     }
 
@@ -687,6 +686,7 @@ select {
     .mail_text {
         height: 55px;
         width: 120px;
+        padding-top: 14px;
         font-size: 20px;
     }
 
