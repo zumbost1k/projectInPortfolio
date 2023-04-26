@@ -384,7 +384,7 @@ select {
 .mail_text {
     background-color: #000000;
     color: white;
-    padding: 16px 17px 17px 17px;
+    padding: 17px 17px 17px 17px;
     white-space: nowrap;
     font-family: 'SF Pro Display';
     font-weight: 700;
@@ -396,8 +396,9 @@ select {
 }
 
 .input_mail {
-    height: 48px;
+    height: 52px;
     border: 1px solid #000000;
+    margin-bottom: 20px;
 }
 
 ::placeholder {
@@ -758,4 +759,3 @@ select {
         margin-top: 34px;
     }
 }
-
