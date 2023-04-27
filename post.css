@@ -402,6 +402,10 @@ select {
     margin-bottom: 20px;
 }
 
+.input_mail:focus {
+    outline: none;
+}
+
 ::placeholder {
     color: #000000;
     padding-left: 12px;
@@ -739,7 +743,7 @@ select {
         text-decoration: none
     }
 
-    .menu_link.active {
+    .menu_link:hover {
         border-bottom: 2px solid #000000;
     }
 
